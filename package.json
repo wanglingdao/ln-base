@@ -1,0 +1,43 @@
+{
+  "name": "ln-base",
+  "version": "0.0.0",
+  "description": "Base 是一个基础类，提供 Class、Events、Attribute 和 Aspect 支持。",
+  "keywords": [],
+  "homepage": "https://github.com/wanglingdao/ln-base",
+  "author": {
+    "name": "wanglingdao",
+    "email": "wanglingdao00@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wanglingdao/ln-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wanglingdao/ln-base/issues"
+  },
+  "licenses": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-exec": "^0.4.6",
+    "grunt-jsdoc": "^0.5.7",
+    "grunt-spm-server": "^0.1.1",
+    "load-grunt-tasks": "^0.6.0"
+  },
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "nd-class": "0.0.0",
+      "nd-events": "0.0.1",
+      "nd-aspect": "0.0.0",
+      "nd-attribute": "0.0.1"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1",
+      "jquery": "1.11.1",
+      "sinon": "1.6.0",
+      "moment": "2.8.4"
+    }
+  }
+}
